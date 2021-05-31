@@ -2,6 +2,8 @@
 
 **This is a fork of [webpack-externals-plugin](https://github.com/Morhaus/webpack-externals-plugin), but that works in Webpack 5+!**
 
+This is inspired by [tomasAlabes/webpack2-externals-plugin](https://github.com/tomasAlabes/webpack2-externals-plugin), thank you Tomas!
+
 Provides more powerful [externals](https://webpack.github.io/docs/configuration.html#externals) configuration options.
 
 ## Usage
@@ -18,7 +20,7 @@ The following webpack configuration considers all modules under the local `node_
 `webpack.config.js`:
 
 ```js
-var ExternalsPlugin = require('webpack2-externals-plugin');
+var ExternalsPlugin = require('webpack5-externals-plugin');
 module.exports = {
   entry: './app.js',
   output: {
