@@ -1,8 +1,9 @@
 {
   "name": "webpack5-externals-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides more powerful externals configuration options",
   "main": "index.js",
+  "typings": "threads-plugin.d.ts",
   "keywords": [
     "webpack",
     "plugin",
