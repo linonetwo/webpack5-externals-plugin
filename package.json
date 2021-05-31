@@ -1,6 +1,6 @@
 {
   "name": "webpack5-externals-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides more powerful externals configuration options",
   "main": "index.js",
   "keywords": [
